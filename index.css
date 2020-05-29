@@ -1,0 +1,83 @@
+body{
+    background-image: url(img/teste.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    margin:0;
+}
+nav{
+    position: fixed;
+    top:10%;
+    text-align: center;
+    width: 100%;
+
+}
+.menu{
+    padding: 10px;
+    margin: 1%;
+    background-image: url('https://i.ibb.co/rb2TWXL/bgbtn.png');
+    background-size: cover;
+	image-rendering: pixelated;
+    border: 2px solid #000;
+    box-shadow: inset -2px -4px #0004, inset 2px 2px #FFF5;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+    letter-spacing: 2px;
+}
+.menu:hover{ 
+    text-shadow: 2px 2px #000A;
+    background-color: rgba(100, 100, 255, .45);
+    text-shadow: 2px 2px #202013CC;
+    color: #FFFFA0;
+}
+.corpo{
+    display: block;
+    position: fixed;
+    top:15%;
+    left:22%;
+    background-color: #c6c6c6;
+    border: solid 5px #000;
+    width: 50%;
+    height: 55%;
+    padding:2%;
+    outline: 10px outset   #D6D6D6;
+    outline-offset: -13px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+border-radius: 5px 5px 5px 5px;
+}
+#quadradoavatar{
+    position: static;
+    display: block;
+    width: 27%;
+    height: 100%;
+    background-color: #000;
+    float: left;
+    text-align: center;
+    max-width: 100%;
+}
+.mascote{
+    position: relative;
+    top:30%;
+}
+#quadrado{
+    position: static;
+    display: block;
+    width: 35%;
+    height: 48%;
+    background-color: #b6b2b2;
+    margin-top: 1%;
+    margin-left: 1%;
+    float: right;
+    text-align: center;
+    max-width: 100%;
+    outline: 2px inset #F0F0F0;
+    
+}
+footer{
+    position: fixed;
+    bottom:0;
+    width: 100%;
+    text-align: center;
+}
